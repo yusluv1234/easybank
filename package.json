@@ -9,6 +9,8 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "sass": "^1.29.0",
+    "scss": "^0.2.4",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -33,6 +35,13 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ],
+    "extensions": [
+      "ms-azure-devops.azure-pipelines",
+      "ms-dotnettools.csharp",
+      "ms-vscode.powershell",
+      "DavidAnson.vscode-markdownlint",
+      "vitaliymaz.vscode-svg-previewer"
     ]
   }
 }
