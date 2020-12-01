@@ -16,7 +16,7 @@ function Navbar() {
                 <span>Blog</span>
                 <span>Careers</span>
             </div>
-            
+                <button className='navbar-button'> Request Invite</button>
         </div>
     )
 }
