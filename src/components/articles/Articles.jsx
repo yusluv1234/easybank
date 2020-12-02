@@ -1,4 +1,5 @@
 import React from 'react';
+import ArticlesData from '../articles-data/ArticlesData';
 
 import './Articles.scss';
 
@@ -11,7 +12,9 @@ const Articles = () => {
                     <br />Control your finance like naver before
                 </div>
             </div>
-            
+            <div className='articles_data'>
+                <ArticlesData  />
+            </div>
         </div>
     )
 }

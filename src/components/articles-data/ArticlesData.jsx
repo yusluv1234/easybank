@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Online from '../Icon/icon-online.svg';
 import Budgeting from '../Icon/icon-budgeting.svg';
 import Onboarding from '../Icon/icon-onboarding.svg';
@@ -33,14 +33,26 @@ let Bankdata = [
     },
 ]
 
+const ArticlesComment = ({data:{id, imageUrl, title, text}}) => {
+    return(
+        <div className='articles-comment'>
+            <div className='imageUrl'>{imageUrl}</div>
+            <div className='article-title'>{title}</div>
+            <div className='article-comment'>{text}</div>
+        </div>
+    )
+}
+
 const ArticlesData = () => {
-    const [state, setState] = useState({
-        
-    });
+    // const [state, setState] = useState({
+
+    // });
 
     return (
         <div className='articles-data'>
-            {Bankdata && Bankdata.map()}
+            {Bankdata && Bankdata.map((item, index) => (
+                <ArticlesComment key={index} data={item} />
+            ))}
         </div>
     )
 }
