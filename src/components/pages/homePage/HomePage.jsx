@@ -1,6 +1,7 @@
 import React from 'react';
 import Caption from '../../caption/Caption';
 import Navbar from '../../navbar/Navbar';
+import Articles from '../../articles/Articles';
 
 import './HomePage.scss';
 
@@ -12,6 +13,7 @@ const HomePage = () => {
             </div>
             <div className='homepage-caption'>
                 <Caption />
+                <Articles />
             </div>
             
         </div>
