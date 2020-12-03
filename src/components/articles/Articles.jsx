@@ -1,5 +1,6 @@
 import React from 'react';
 import ArticlesData from '../articles-data/ArticlesData';
+import Banking from '../banking/Banking';
 
 import './Articles.scss';
 
@@ -16,7 +17,7 @@ const Articles = () => {
                 <ArticlesData  />
             </div>
             <div className='latest-articles'>
-
+                <Banking />
             </div>
         </div>
     )

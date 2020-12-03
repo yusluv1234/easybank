@@ -1,0 +1,22 @@
+.banking {
+    overflow: hidden;
+    display: flex;
+}
+
+.banking-comment {
+    background-color: white;
+    margin: 0 10px;
+    justify-content: center;
+}
+
+.banking-name {
+    font-size: 20px;
+    padding: 10px 0;
+    font-style: italic;
+    color: rgb(133, 104, 104);
+}
+
+.banking-title {
+    font-size: 26px;
+    font-weight: 900;
+}
