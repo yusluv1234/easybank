@@ -39,7 +39,7 @@ let Latestdata = [
 
 const BankingComment = ({data:{id, name, imageUrl, title, text}}) => {
     return(
-        <div className='banking-comment'>
+        <div className='banking-comments'>
             <div className='imageUrl_bank' style={{fontSize: '12px'}}>{imageUrl}</div>
             <div className='banking-name'>{name}</div>
             <div className='banking-title'>{title}</div>
@@ -50,10 +50,15 @@ const BankingComment = ({data:{id, name, imageUrl, title, text}}) => {
 
 const Banking = () => {
     return (
+        <div className='bankink__header'>
+        <div className='banking-top'>
+            Latests Articles
+        </div>
         <div className='banking'>
             {Latestdata && Latestdata.map((item, index) => (
                 <BankingComment key={index} data={item} />
             ))};
+        </div>
         </div>
     )
 }

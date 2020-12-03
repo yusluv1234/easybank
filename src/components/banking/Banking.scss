@@ -1,12 +1,26 @@
 .banking {
     overflow: hidden;
+    // margin: 0 20px;
     display: flex;
 }
 
-.banking-comment {
+.bankink__header {
+    padding-bottom: 70px;
+    // margin: 0 20px;
+}
+
+.banking-top {
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px 90px;
+}
+
+.banking-comments {
+    padding-left: 20px;
+    height: 50vh;
     background-color: white;
-    margin: 0 10px;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .banking-name {
@@ -18,5 +32,23 @@
 
 .banking-title {
     font-size: 26px;
-    font-weight: 900;
+    font-weight: 700;
 }
+
+.banking-comment {
+    font-size: 12px;
+
+}
+
+@media screen and (max-width: '650px') {
+    .banking {
+        // overflow: hidden;
+        display: inline !important;
+    }
+
+    .banking-comments {
+        height: 50vh;
+        justify-content: center;
+    }
+}
+
