@@ -15,6 +15,9 @@ const Articles = () => {
             <div className='articles_data'>
                 <ArticlesData  />
             </div>
+            <div className='latest-articles'>
+
+            </div>
         </div>
     )
 }
