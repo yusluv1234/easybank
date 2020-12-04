@@ -49,7 +49,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='footer-copy '>
-                <CustomButton title='Request Invite' />
+            <CustomButton type='submit'>Request Invite</CustomButton>
                 <div className='copy-right' >&copy; Easybank All Rights Reserved</div>
             </div>
         </div>

@@ -18,7 +18,7 @@ const Caption = () => {
                     <br /> budgeting, investing, and much more.
                 </div>
                 <div className='caption-button'>
-                    <CustomButton title='Request Invite' />
+                <CustomButton type='submit'>Request Invite</CustomButton>
                 </div>
             </div>
             <div className='caption-image'>

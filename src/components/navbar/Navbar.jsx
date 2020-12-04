@@ -18,7 +18,7 @@ function Navbar() {
                 <a className='href' href='/career'>Careeers</a>
            </div>
            <div className='nav-button'>
-                <CustomButton title='Request Invite' />
+                <CustomButton type='submit'>Request Invite</CustomButton>
            </div>
            <div className='navbar-login'>
            <a className='href' href='/signin'>SignIn</a>
