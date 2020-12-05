@@ -42,3 +42,30 @@
     color: white;
     padding-top: 60px;
 }
+
+@media screen and (max-width: '650px') {
+    .footer {
+        background-color: rgb(108, 113, 150);
+        height: 40vh;
+        justify-content: space-around;
+        display: flex;
+        padding-top: 50px;
+    }
+
+    // .footer-about-tag1 {
+    //     // margin-left: 70px;
+    // }
+
+    .icons-bottom {
+        display: flex;
+        // flex-direction: column;
+        padding-top: 10px;
+        justify-content: space-around;
+    }
+    
+    .footer-about {
+        display: flex;
+        flex-direction: column;
+        // justify-content: space-around;
+    }
+}

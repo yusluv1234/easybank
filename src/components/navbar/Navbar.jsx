@@ -7,11 +7,11 @@ function Navbar() {
     return (
         <div className='navbar'>
             <div className='bank-logo'>
-            <a className='href' href='/home'>
+            <a className='href' href='/homepage'>
                 <img src={BankLogo} alt='bank-logo' /></a>
             </div>
            <div className='nav-links'>
-                <a className='href' href='/home'>Home</a>
+                <a className='href' href='/homepage'>Home</a>
                 <a className='href' href='/about'>About</a>
                 <a className='href' href='/contact'>Contact</a>
                 <a className='href' href='/blog'>Blogs</a>

@@ -12,6 +12,7 @@ import CustomButton from '../custom-button/CustomButton';
 const Footer = () => {
     return (
         <div className='footer'>
+            <>
             <div className='Icons-header'>
                 <div className=' icons-topbar'>
                 <a href='/homepage'>
@@ -48,6 +49,7 @@ const Footer = () => {
                     <a href='/privacy'>Privacy Policy</a>
                 </div>
             </div>
+            </>
             <div className='footer-copy '>
             <CustomButton type='submit'>Request Invite</CustomButton>
                 <div className='copy-right' >&copy; Easybank All Rights Reserved</div>
